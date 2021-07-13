@@ -1,0 +1,58 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ---------------------
+    This is Top Part 
+------------------------*/
+.top-part{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 450px;
+    padding: 150px 100px 150px 100px;
+}
+.top-part-element{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 250px;
+    grid-column-gap: -100px;
+}
+
+.top-left h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+
+}
+
+.top-p{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 1px 20px 8px 50px;
+    
+    
+}
+
+
+.top-left p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    
+}
+.top-p a{
+    text-decoration: none;
+    color:white;
+}
+
+.top-p p:hover{
+    transform: scale(1.5);
+    transition-duration: 2s;
+    
+}
+
+.top-right img{
+    width: 556.01px;
+    height: 438px;
+}
