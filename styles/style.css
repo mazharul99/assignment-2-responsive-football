@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    background-color: white;
     margin-top: 0px;
     
 }
@@ -15,17 +15,16 @@ main{
     align-items: center;
 }
 .container{
-    align-items: center;
     background-color: #2D25A0;
-    width: 1350px;
-    height: 450px;
-    padding: 150px 150px 150px 150px;
+    width: 1110px;
+    height: 350px;
+    padding: 120px 90px 150px 100px;
    
 }
 .top-part-element{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 200px;
+    grid-column-gap: 20px;
    
 }
 
@@ -73,3 +72,106 @@ main{
 /* ---------------------------
     This is Middle part-1
 ------------------------------ */
+.container-middle{
+    background-color: whitesmoke;
+    width: 1040px;
+    padding: 70px 135px 27px 125px;
+   
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    
+}
+.player-part{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    padding:15px;
+    box-shadow: 2px 2px 2px 2px rgb(231, 230, 230);
+}
+
+.player-part img{
+    width: 300px;
+    height: 256px;
+}
+
+.player-info h2{
+    font-size: 28px;
+    font-weight: 700px;
+    color: #18191F;
+}
+
+.player-info p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #6C6C6C;
+    width:300px;
+    text-align:justify;
+}
+
+/* --------------------
+   This is Middle part-2
+----------------------- */
+
+.container-middle2{
+    background-color: whitesmoke;
+    width: 1040px;
+    padding: 70px 135px 27px 125px;
+   
+}
+
+.middle-part2-element{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 65px;
+   
+}
+
+.middle-part2-left h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    width: 485px;
+   
+
+}
+
+.m2-para{
+    text-align: justify;
+    font size: 16px;
+}
+.m2-button{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 20px 20px 1px 50px;    
+}
+
+
+.m2-button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    
+}
+.m2-button a{
+    text-decoration: none;
+    color:white;
+}
+
+.m2-button:hover{
+    transform: scale(1.5);
+    transition-duration: 2s;
+    
+}
+
+.middle-part2-right img{
+    width: 500px;
+    height: 400px;
+}
+
+
