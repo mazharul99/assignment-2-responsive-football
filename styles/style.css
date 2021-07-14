@@ -17,7 +17,7 @@ main{
 .container{
     background-color: #2D25A0;
     width: 1110px;
-    padding: 120px 90px 150px 100px;
+    padding: 50px 90px 50px 100px;
    
 }
 .top-part-element{
@@ -116,6 +116,7 @@ main{
    This is Middle part-2
 ----------------------- */
 
+
 .container-middle2{
     background-color: whitesmoke;
     width: 1040px;
@@ -172,6 +173,32 @@ main{
     width: 500px;
     height: 400px;
 }
+/* -----------------------
+     audio & video part 
+--------------------------*/
+
+.container-media{
+    background-color: rgb(211, 244, 250);
+    width: 1040px;
+    padding: 70px 135px 27px 125px;
+    
+}
+
+.media{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 80px;
+   
+}
+
+.audio p{
+    text-align: justify;
+}
+
+.audio h1, .video h1{
+    font-size:30px;
+}
+
 
 /* ----------------------
         Footer-part 
@@ -242,13 +269,13 @@ main{
 /* mobile devices */
 
 @media only screen and (max-width:688px){
-    .container, .container-middle, .container-middle2{
+    .container, .container-middle, .container-middle2, .container-media{
         width: 100%;
         
     }
 
 
-.top-part-element, .players, .middle-part2-element{
+.top-part-element, .players, .middle-part2-element, .media{
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         grid-row-gap: 50px;
@@ -259,24 +286,24 @@ main{
 
 
 
-    /* Tablet devices */
+/* Tablet devices */
 
 @media only screen and (min-width:688px) and (max-width:992px){
     
-    .container, .container-middle, .container-middle2{
+    .container, .container-middle, .container-middle2, .container-media{
         width: 100%;
         
     }
   
 
-.top-part-element, .players, .middle-part2-element{
+.players, .middle-part2-element{
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         grid-row-gap: 50px;
         align-items: center;
 }
 
-    .middle-part2-element{
+.top-part-element, .middle-part2-element, .media{
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         grid-row-gap: 50px;
