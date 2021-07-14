@@ -174,4 +174,66 @@ main{
     height: 400px;
 }
 
+/* ----------------------
+        Footer-part 
+-------------------------- */
+
+.foot-banner img{
+    width: 484px;
+    height: 110px;
+    
+}
+.full-foot-part{
+    background-color: whitesmoke;
+    width: 1040px;
+    padding: 70px 135px 27px 125px;
+   
+}
+
+.foot-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.foot-social{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.copyright{
+    text-align: center;
+    font-size: 18px;
+}
+
+.fab{
+    font-size: 20px;
+    padding: 20px;
+    color: #969BAB;
+   
+}
+
+.fa-instagram{
+    background-color: rgb(236, 234, 229);
+    border-radius: 50px;
+    
+}
+
+.fa-battle-net{
+    background-color: rgb(236, 234, 229);
+    border-radius: 50px;
+}
+.fa-twitter{
+    background-color: rgb(236, 234, 229);
+    border-radius: 50px;
+}
+.fa-youtube{
+    background-color: rgb(236, 234, 229);
+    border-radius: 50px;
+}
+
+
 
